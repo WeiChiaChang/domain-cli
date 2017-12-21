@@ -12,7 +12,7 @@
   <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 </p>
 
-> Search registered domain names in terminal
+> Search domain names if registered or not in terminal
 
 API & datas comes from [domainsdb](https://domainsdb.info/).
 
