@@ -9,6 +9,20 @@ const opn = require('opn');
 const meow = require('meow');
 const VERSION = meow().pkg.version;
 
+const cliHelp = meow(`
+  Search domain name via interactive cli
+  $ domain-cli
+
+  Or more directly
+  $ domain-cli <URL>
+
+  Show current version
+  $ domain-cli -v
+
+  Source code of this side project
+  $ domain-cli -s
+`);
+
 let table = new Table({
   chars: {
     'top': '═',

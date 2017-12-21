@@ -1,6 +1,6 @@
 {
   "name": "domain-cli",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "Registered domain names search in terminal",
   "bin": {
     "domain-cli": "bin/index.js"
