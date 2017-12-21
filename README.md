@@ -1,2 +1,6 @@
 ## domain-cli
-Registered domain names search in terminal
+> Search registered domain names in terminal
+
+API & datas comes from [domainsdb](https://domainsdb.info/).
+
+

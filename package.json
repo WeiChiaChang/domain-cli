@@ -1,8 +1,10 @@
 {
   "name": "domain-cli",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "Registered domain names search in terminal",
-  "main": "index.js",
+  "bin": {
+    "domain-cli": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +23,13 @@
   },
   "homepage": "https://github.com/WeiChiaChang/domain-cli#readme",
   "dependencies": {
-    "cli-table2": "^0.2.0"
+    "axios": "^0.17.1",
+    "cfonts": "^1.1.3",
+    "chalk": "^2.3.0",
+    "cli-table2": "^0.2.0",
+    "inquirer": "^4.0.1",
+    "meow": "^4.0.0",
+    "opn": "^5.1.0",
+    "ora": "^1.3.0"
   }
 }
