@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/WeiChiaChang/domain-cli/issues"
   },
-  "homepage": "https://github.com/WeiChiaChang/domain-cli#readme"
+  "homepage": "https://github.com/WeiChiaChang/domain-cli#readme",
+  "dependencies": {
+    "cli-table2": "^0.2.0"
+  }
 }
