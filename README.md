@@ -2,7 +2,7 @@
 
 <p align="center">
   <a target="_blank" href="https://github.com/WeiChiaChang/domain-cli">
-    <img alt="domain-cli" src="https://loremflickr.com/cache/images/f512fedb2caf38c32d290f98abfddbac.86.jpg">
+    <img alt="domain-cli" src="https://i.imgur.com/JgpHLSA.gif">
   </a>
 </p>
 <p align=center>
