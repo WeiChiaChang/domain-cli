@@ -40,7 +40,7 @@ google.com
 Here's the result:
 <p align="center">
   <a target="_blank" href="https://github.com/WeiChiaChang/domain-cli">
-    <img alt="domain-cli" src="https://i.imgur.com/3BFaLIi.png">
+    <img alt="domain-cli" src="https://i.imgur.com/EJ1cSD1.png">
   </a>
 </p>
 
