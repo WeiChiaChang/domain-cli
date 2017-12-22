@@ -84,6 +84,10 @@ let search = function (website) {
         return `0${input}`;
       }
 
+      function addLaptop (input) {
+        return `💻   ${input}`;
+      }
+
       for (let num = 0, leng = response.data.domains.length; num < leng; num ++) {
         domainInfo.push(new Array());
         domainInfo[num].push({
@@ -92,7 +96,7 @@ let search = function (website) {
         });
         domainInfo[num].push({
           hAlign: 'center', 
-          content: chalk.cyan(response.data.domains[num])
+          content: chalk.cyan(addLaptop(response.data.domains[num]))
         });
       }
 
