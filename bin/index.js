@@ -72,15 +72,23 @@ let search = function (website) {
         [{
           colSpan: 2,
           hAlign: 'center',
-          content: chalk.magenta('-------- 👀  Domain names list as the following 👇  --------')
+          content: chalk.green('-------- 👀  Domain names list as the following 👇  --------')
         }]
       );
+
+      function addEmoji (input) {
+        return `🆔  ${input}`;
+      }
+
+      function addZero (input) {
+        return `0${input}`;
+      }
 
       for (let num = 0, leng = response.data.domains.length; num < leng; num ++) {
         domainInfo.push(new Array());
         domainInfo[num].push({
           hAlign: 'center', 
-          content: (num + 1) > 10 ? chalk.rgb(215, 156, 80)(num + 1) : chalk.white(num + 1)
+          content: (num + 1) >= 10 ? chalk.rgb(215, 156, 80)(addEmoji(num + 1)) : chalk.white(addEmoji(addZero(num + 1)))
         });
         domainInfo[num].push({
           hAlign: 'center', 
