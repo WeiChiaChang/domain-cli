@@ -96,7 +96,7 @@ let search = function (website) {
         });
         domainInfo[num].push({
           hAlign: 'center', 
-          content: chalk.cyan(addLaptop(response.data.domains[num]))
+          content: chalk.cyan(addLaptop(response.data.domains[num].domain))
         });
       }
 
